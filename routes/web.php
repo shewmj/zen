@@ -11,6 +11,20 @@
 |
 */
 
-Route::get('/', function () {
-    return view('index');
-});
+
+
+Route::get('/', 'PagesController@home')->name('home');
+
+
+Route::get('/stuff', 'PagesController@stuff')->name('stuff');
+
+
+Route::get('/contact', 'PagesController@contact')->name('contact');
+
+Route::get('/resume', 'PagesController@resume')->name('resume');
+
+
+
+
+
+
