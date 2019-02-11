@@ -11,7 +11,6 @@
         <div class="title m-b-md">
             MJS
         </div>
-
     </div>
 </div>
 

@@ -65,7 +65,7 @@
   <body>
 
     {{-- Navbar --}}
-    @include('layouts.partials._navigation')
+    @include('layouts.partials._hockey_navigation')
 
     {{-- Main Application Area --}}
     <div id="app">

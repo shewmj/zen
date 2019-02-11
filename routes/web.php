@@ -25,6 +25,17 @@ Route::get('/resume', 'PagesController@resume')->name('resume');
 
 
 
+Route::group(['prefix' => '/NHL'], function () {
+
+	Route::get('/home', 'HockeyController@home')->name('hockey.home');
+	Route::get('/team/{teamName}/{teamId}', 'HockeyController@team')->name('hockey.team');
+	Route::get('/team/{teamName}/{playerId}', 'HockeyController@player')->name('hockey.player');
+
+});
+
+
+
+
 
 
 
