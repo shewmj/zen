@@ -11,12 +11,16 @@ class PagesController extends Controller
     	return view('index');
     }
 
-    public function stuff() {
-    	return view('stuff');
+    public function about() {
+        return view('about');
     }
 
-    public function contact() {
-    	return view('contact');
+    public function projects() {
+    	return view('projects');
+    }
+
+    public function education() {
+    	return view('education');
     }
 
     public function resume() {

@@ -15,11 +15,11 @@
 
 Route::get('/', 'PagesController@home')->name('home');
 
+Route::get('/about', 'PagesController@about')->name('about');
 
-Route::get('/stuff', 'PagesController@stuff')->name('stuff');
+Route::get('/projects', 'PagesController@projects')->name('projects');
 
-
-Route::get('/contact', 'PagesController@contact')->name('contact');
+Route::get('/education', 'PagesController@education')->name('education');
 
 Route::get('/resume', 'PagesController@resume')->name('resume');
 
